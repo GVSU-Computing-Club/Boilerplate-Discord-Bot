@@ -36,6 +36,24 @@ class Bot(discord.Client):
     #challenges            #
     ########################
 
+    # 10 point challenges:
+
+    #example: 
+    #!add 4 5
+    #output: 9
+
+    def add(self, message):
+        pass
+
+    def subtract(self, message):
+        pass
+
+    def multiply(self, message):
+        pass
+
+    def divide(self, message):
+        pass
+
     # 20 point challenges:
 
     #reverse incoming string message and print it back to the user
@@ -45,7 +63,6 @@ class Bot(discord.Client):
     #dlrow olleh
     def reverse(self, message, channel):
         pass
-
 
     # 50 point challenges:
 
