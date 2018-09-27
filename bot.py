@@ -99,6 +99,13 @@ class Bot(discord.Client):
     def top_words(self, message, channel):
         pass
 
+    # 500 points
+    # once a user starts typing it tries to estimate how long it took them to type the message then prints the words per minute speed
+    # OR
+    # the bot gives a paragraph to type, counts down then checks to see if the user writes the same message, then gives words per minute
+    def type_speed(self, message, channel):
+        pass
+
     async def on_message(self, message):
         if(message.content.startswith('hello')):
             await self.send_message(message.channel, 'world')
